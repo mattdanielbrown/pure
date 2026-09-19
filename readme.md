@@ -300,6 +300,16 @@ Add `prompt pure` to your `~/.zpreztorc`.
 
 Add `zmodule sindresorhus/pure --source async.zsh --source pure.zsh` to your `.zimrc` and run `zimfw install`.
 
+### [sheldon](https://github.com/rossmacarthur/sheldon)
+
+Add the following to your `~/.config/sheldon/plugins.toml` file:
+
+```toml
+[plugins.pure]
+github = "sindresorhus/pure"
+use = ["async.zsh", "pure.zsh"]
+```
+
 ### [zplug](https://github.com/zplug/zplug)
 
 Update your `.zshrc` file with the following two lines:
